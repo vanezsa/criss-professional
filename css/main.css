@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #1e1e1e;
+  font-size: 16px;
+  line-height: 30px; }
+
+h1, h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #1e1e1e; }
+
+h2 {
+  font-size: 25px; }
+
+h6 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff; }
+
+.text-main {
+  color: #5268ed; }
+
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:visited,
+.btn.btn-primary:focus {
+  background-color: #fff;
+  border-color: #1e1e1e !important;
+  border-radius: 12px;
+  color: #1e1e1e;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  font-size: 14px;
+  line-height: 26px;
+  width: 150px;
+  text-align: center; }
+
+footer {
+  background-color: #101746;
+  font-size: 16px;
+  color: #fff; }
+
+.footer-text-sm {
+  font-size: 14px;
+  color: #aaaaaa; }
+
+footer a, footer a:hover {
+  color: #fff; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+
+/*# sourceMappingURL=main.css.map */

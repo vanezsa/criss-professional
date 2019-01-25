@@ -1,0 +1,8 @@
+[1/25/2019, 4:04:11 PM] layer "+38 (050) 458-52-32": Expected Either a default asset specification or a layer asset specification but "+" found.
+[1/25/2019, 4:04:11 PM] layer "+38 (050) 458-52-32 копия": Expected Either a default asset specification or a layer asset specification but "+" found.
+[1/25/2019, 4:04:11 PM] layer "Criss@gmail.com": Unsupported extension: com
+[1/25/2019, 4:04:11 PM] layer "+38 (050) 458-52-32": Expected Either a default asset specification or a layer asset specification but "+" found.
+[1/25/2019, 4:04:11 PM] layer "Criss@gmail.com": Unsupported extension: com
+[1/25/2019, 4:04:11 PM] layer "+38 (050) 458-52-32": Expected Either a default asset specification or a layer asset specification but "+" found.
+[1/25/2019, 4:04:11 PM] layer "+38 (050) 458-25-52": Expected Either a default asset specification or a layer asset specification but "+" found.
+[1/25/2019, 4:04:11 PM] layer "+38 (050) 458-25-52 копия": Expected Either a default asset specification or a layer asset specification but "+" found.

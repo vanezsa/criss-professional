@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #1e1e1e;
+$secondary-color: #5268ed;
+$white: #fff;
+
+* { box-sizing: border-box;}
+
+body {
+    font-family: $font-stack;
+    font-weight: 400;  
+    color: $primary-color;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+%text-shared {  
+    font-size: 35px;
+    text-transform: uppercase;
+    color: $primary-color;
+}
+
+h1 {
+    @extend %text-shared;
+}
+
+h2 {
+    @extend %text-shared;
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: $white;
+}
+.text-main {
+    color: $secondary-color;
+}
+
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:visited,
+.btn.btn-primary:focus {
+    background-color: $white;
+    border-color: $primary-color!important;
+    border-radius: 12px;
+    color: $primary-color;
+    font-family: $font-stack;
+    height: 40px;
+    font-size: 14px;
+    line-height: 26px;
+    width: 150px;
+    text-align: center;
+}
+
+footer {
+    background-color: #101746;
+    font-size: 16px;
+    color: $white;
+}
+
+.footer-text-sm {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+footer a, footer a:hover {
+    color: $white;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
