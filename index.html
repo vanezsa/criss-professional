@@ -7,15 +7,66 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
         <link rel="stylesheet" href="css/main.css">
 
         <title>Criss Professional</title>
     </head>
     <body>
 
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
+            <div class="container-fluid pt-2 pb-2">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">+38 (050) 458-25-52 <br>+38 (050) 458-25-52</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <header>
+            <img src="img/banner.jpg" alt="Banner" class="img-fluid w-100">
+            <div class="vertical-align">
+                <h1 class="header-text">Created With Passion</h1>
+                <p class="header-sub-text pt-2 pb-3">Make your idea go live</p>
+                <a href="#" class="btn btn-secondary font-weight-bold">Order Service</a>
+            </div>
+        </header>
+
         <section class="container mt-5">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+            </ul>
+
             <!-- ABOUT US -->
-            <div class="text-center pb-4">
+            <div class="text-center mt-5 pb-4" id="#about">
                 <h1><span class="text-main">ABOUT</span> US</h1>
             </div>
 
@@ -39,7 +90,7 @@
                 <h1><span class="text-main">OUR</span> SERVICES</h1>
             </div>
 
-            <div class="row mt-5">
+            <div class="row mt-5 pt-3">
                 <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-3">
                     <img src="img/web-dev.png" alt="Web Development Icon" class="mb-4">
                     <h2>WEB DEVELOPMENT</h2>
@@ -76,7 +127,7 @@
             </div>
 
             <div class="row d-flex align-items-end">
-                <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="col-sm-12 col-md-8 col-lg-8 mb-3">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <a href="#"><img src="img/work-img-2.jpg" alt="work-2" class="img-fluid mb-3"></a>
@@ -105,7 +156,7 @@
                 <h1><span class="text-main">OUR</span> Clients</h1>
             </div>
 
-            <div class="row mt-5 text-center">
+            <div class="row mt-5 pt-3 text-center">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-5">
                     <img src="img/adidas-logo.png" alt="adidas" class="img-fluid">
                 </div>
@@ -125,8 +176,93 @@
                     <img src="img/company-logo2.png" alt="company2" class="img-fluid">
                 </div>
             </div>
+        </section>
 
-            <!-- LET’S TALK -->
+        <!-- TESTIMONIALS -->
+        <section class="container-fluid mt-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active" >
+                        <img src="img/testimonials.jpg" class="d-block img-fluid w-100" alt="testimonials">
+                        <!--                        <div class="row text-center">-->
+                        <!--                            <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2">-->
+
+                        <div class="carousel-centered">
+                            <div class="carousel-bg">
+                                <h2>Amma Stown </h2>
+                                <hr class="white-line">
+                                <h5>Art director</h5>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                                        <p>Lorem ipsum dolor s 
+                                            it amet, consectetur adipiscing elit.
+                                            Morbi eleifend, leo in euismod accumsan, sem lectus euismod nisl,
+                                            sit amet mattis turpis leo et elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/testimonials.jpg" class="d-block img-fluid w-100" alt="testimonials">
+                        <div class="carousel-centered">
+                            <div class="carousel-bg">
+                                <h2>Amma Stown </h2>
+                                <hr class="white-line">
+                                <h5>Art director</h5>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                                        <p>Lorem ipsum dolor s 
+                                            it amet, consectetur adipiscing elit.
+                                            Morbi eleifend, leo in euismod accumsan, sem lectus euismod nisl,
+                                            sit amet mattis turpis leo et elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/testimonials.jpg" class="d-block img-fluid w-100" alt="testimonials">
+                        <div class="carousel-centered">
+                            <div class="carousel-bg">
+                                <h2>Amma Stown </h2>
+                                <hr class="white-line">
+                                <h5>Art director</h5>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                                        <p>Lorem ipsum dolor s 
+                                            it amet, consectetur adipiscing elit.
+                                            Morbi eleifend, leo in euismod accumsan, sem lectus euismod nisl,
+                                            sit amet mattis turpis leo et elit.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- LET’S TALK -->
+        <section class="container">
             <div class="text-center mt-5 pt-3">
                 <h1><span class="text-main">LET’S</span> TALK</h1>
 
@@ -138,14 +274,33 @@
                 </div>
             </div>
 
-            <div class="row mt-5">
-                <div class="col-sm-12 div col-md-6 div col-lg-6">
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-12 div col-md-12 div col-lg-6 mt-5">
                     <img src="img/map.jpg" alt="Map" class="img-fluid">
                 </div>
 
-                <div class="col-sm-12 div col-md-6 div col-lg-6">
-                    <input type="text" class="form-control" placeholder="Name">
-                    
+                <div class="col-sm-12 div col-md-12 div col-lg-6 mt-5">
+
+                    <div class="inputBox mb-4">
+                        <div class="inputText">First Name</div>
+                        <input type="text" name="" class="input">
+                    </div>
+
+                    <div class="inputBox mb-4">
+                        <div class="inputText">Email</div>
+                        <input type="text" name="" class="input">
+                    </div>
+
+                    <div class="inputBox mb-4">
+                        <div class="inputText">Phone</div>
+                        <input type="text" name="" class="input">
+                    </div>
+
+                    <div class="inputBox mb-4">
+                        <div class="inputText">Messege</div>
+                        <input type="text" name="" class="input">
+                    </div>
+
                     <a href="#" class="btn btn-primary font-weight-bold text-uppercase">Send</a>
 
                 </div>
@@ -207,8 +362,8 @@
                                     <li><img src="img/icon-email.png" alt="Email"></li>
                                     <li class="pl-1"><img src="img/icon-loc.png" alt="Location"></li>
                                 </ul>
-                                    
-                                
+
+
                             </div>
 
                             <div class="col-7 col-sm-9 col-md-8 col-lg-9 mb-2">
@@ -223,18 +378,21 @@
 
                     </div>
                 </div>
-                
+
                 <div class="text-center">
                     <h6>© 2018 Criss profesional</h6>
                 </div>
             </div>
         </footer>
 
-
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+        <script src="js/script.js"></script>
+
+
     </body>
 </html>
